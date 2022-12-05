@@ -41,14 +41,11 @@
 ## 1. Saga (Pub/Sub)
 
 
-
-
 실행 결과
 
 
 ## 2. CQRS
 Read Model CRUD 상세설계
-![image](https://user-images.githubusercontent.com/43160394/205553678-3735a513-4cc5-43b9-8ca9-b69be33d0e1b.png)
 
 실행 결과
 
