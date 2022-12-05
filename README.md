@@ -66,6 +66,13 @@ Read Model CRUD 상세설계
 
 
 ## 5. Circuit Breaker
+호출선의 설정에서 Circuit breaker 옵션을 On 한다
+![image](https://user-images.githubusercontent.com/43160394/205560198-bd1d95b2-95b1-422b-8a2c-8064beb63b2c.png)
+
+생성 코드 확인과 구현
+서킷브레이커 설정
+front 서비스의 application.yaml 파일의 다음 설정을 true 로 하고, 임계치를 610ms으로 변경
+![image](https://user-images.githubusercontent.com/43160394/205564504-8c817d83-b177-4595-aac2-0762dc4f7f77.png)
 
 
 실행 결과
