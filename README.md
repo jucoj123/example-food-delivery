@@ -42,6 +42,7 @@ Pub/Sub에 해당하는 front에서 음식을 주문하고 delibery에서 받는
 ![image](https://user-images.githubusercontent.com/43160394/205781907-fc537ba7-be88-4864-a280-39fea0828537.png)
 ![image](https://user-images.githubusercontent.com/43160394/205785572-76f00cc7-cb2c-4514-869b-4270db74fb7c.png)
 
+
 ## 2. CQRS
 Read Model CRUD 상세설계
 ![image](https://user-images.githubusercontent.com/43160394/205777738-f7c7d056-6576-4d4b-adf2-e86301b47e8e.png)
