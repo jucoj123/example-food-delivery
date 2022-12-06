@@ -38,22 +38,19 @@
 ![image](https://user-images.githubusercontent.com/43160394/205647003-d44c64e5-879d-489e-ab91-223197b25468.png)
 
 ## 1. Saga (Pub/Sub)
-
-
-실행 결과
-
+Pub/Sub에 해당하는 front에서 음식을 주문하고 delibery에서 받는것을 확인한다.
+![image](https://user-images.githubusercontent.com/43160394/205781907-fc537ba7-be88-4864-a280-39fea0828537.png)
+![image](https://user-images.githubusercontent.com/43160394/205785572-76f00cc7-cb2c-4514-869b-4270db74fb7c.png)
 
 ## 2. CQRS
 Read Model CRUD 상세설계
 ![image](https://user-images.githubusercontent.com/43160394/205777738-f7c7d056-6576-4d4b-adf2-e86301b47e8e.png)
-실행 결과
 
 
 ## 3. Compensation/Correlation
-
-
-실행 결과
-
+ordercancel의 compensation에 해당하는 Paycancal에 대한 correlation 확인한다.
+![image](https://user-images.githubusercontent.com/43160394/205788163-c8bac1be-b2dd-43d8-a9d4-d6695e956ce7.png)
+![image](https://user-images.githubusercontent.com/43160394/205788204-8602e498-8f7d-447d-b6be-ba562dbfd656.png)
 
 ## 4. Request/Response
 
