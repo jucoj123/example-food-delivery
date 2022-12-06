@@ -55,13 +55,18 @@ Pub/Sub에 해당하는 front에서 음식을 주문하고 delivery에서 받는
 
 ## 2. CQRS
 Read Model CRUD 상세설계
+
 ![image](https://user-images.githubusercontent.com/43160394/205777738-f7c7d056-6576-4d4b-adf2-e86301b47e8e.png)
 
 
+ViewHandler.java 파일 구현체 확인
+
+![image](https://user-images.githubusercontent.com/43160394/205841278-b1ad8ddd-ebb6-41cb-9dc8-0737609f3ec5.png)
+
 ## 3. Compensation/Correlation
-ordercancel의 compensation에 해당하는 Paycancal에 대한 correlation 확인한다.
-![image](https://user-images.githubusercontent.com/43160394/205788163-c8bac1be-b2dd-43d8-a9d4-d6695e956ce7.png)
-![image](https://user-images.githubusercontent.com/43160394/205788204-8602e498-8f7d-447d-b6be-ba562dbfd656.png)
+ordercancel의 compensation에 해당하는 cancalpay에 대한 correlation 확인한다.
+![image](https://user-images.githubusercontent.com/43160394/205842044-ceb31e7a-b9d6-4f0e-8e88-c6838e6949d0.png)
+![image](https://user-images.githubusercontent.com/43160394/205841880-7cd33f18-ad49-4332-baac-64fd99c0d342.png)
 
 ## 4. Request/Response
 
