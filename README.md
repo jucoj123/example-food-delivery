@@ -10,7 +10,7 @@
 # 서비스 시나리오
 
 기능적 요구사항
-1. 고객이 메뉴를 선택하여 주문한다
+1. 고객이 주문한다
 1. 고객이 선택한 메뉴에 대해 결제한다
 1. 결제가 완료되면 주문 내역이 입점상점주인에게 주문정보가 전달된다
 1. 상점주인이 주문을 수락하거나 거절할 수 있다
@@ -36,7 +36,7 @@
 ## Event Storming 결과
 * MSAEz 로 모델링한 이벤트스토밍 결과
 ![이벤트 스토밍](https://user-images.githubusercontent.com/43160394/205813317-41eb4187-4dff-41f6-ad34-b4ae4d50f713.png)
-1. 고객이 메뉴를 선택하여 주문한다 (Ok)
+1. 고객이 주문한다 (Ok)
 1. 고객이 선택한 메뉴에 대해 결제한다 (Ok)
 1. 결제가 완료되면 주문 내역이 입점상점주인에게 주문정보가 전달된다 (Ok)
 1. 상점주인이 주문을 수락하거나 거절할 수 있다 (Ok)
@@ -48,7 +48,7 @@
 1. 고객이 요리를 배달 받으면 배송확인 버튼을 탭하여, 모든 거래가 완료된다 (Ok)
 
 ## 1. Saga (Pub/Sub)
-Pub/Sub에 해당하는 front에서 음식을 주문하고 delibery에서 받는것을 확인한다.
+Pub/Sub에 해당하는 front에서 음식을 주문하고 delivery에서 받는것을 확인한다.
 ![image](https://user-images.githubusercontent.com/43160394/205781907-fc537ba7-be88-4864-a280-39fea0828537.png)
 ![image](https://user-images.githubusercontent.com/43160394/205785572-76f00cc7-cb2c-4514-869b-4270db74fb7c.png)
 
