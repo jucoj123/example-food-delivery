@@ -74,14 +74,32 @@ ordercancel의 compensation에 해당하는 Paycancal에 대한 correlation 확�
 
 ## 5. Circuit Breaker
 호출선의 설정에서 Circuit breaker 옵션을 On 한다
+
 ![image](https://user-images.githubusercontent.com/43160394/205560198-bd1d95b2-95b1-422b-8a2c-8064beb63b2c.png)
 
 생성 코드 확인과 구현
 서킷브레이커 설정
-front 서비스의 application.yaml 파일의 다음 설정을 true 로 하고, 임계치를 610ms으로 변경
-![image](https://user-images.githubusercontent.com/43160394/205564504-8c817d83-b177-4595-aac2-0762dc4f7f77.png)
+front 서비스의 application.yaml 파일의 다음 설정을 true 로 하고, 임계치를 500ms으로 변경
+![image](https://user-images.githubusercontent.com/43160394/205835525-a2a787d4-4715-4589-b18e-098b5616741c.png)
 
+
+성능이 느려지도록 딜레이 발생 코드를 넣는다.
+
+
+@PostLoad
+ public void makeDelay(){
+     try {
+         Thread.currentThread().sleep((long) (400 + Math.random() * 220));
+     } catch (InterruptedException e) {
+         e.printStackTrace();
+     }
+
+ }
+ 
+ 
 실행 결과
+
+![image](https://user-images.githubusercontent.com/43160394/205835249-be807634-aa71-4d7c-9209-b11598c12170.png)
 
 
 ## 6. Gateway/Ingress
