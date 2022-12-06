@@ -46,7 +46,7 @@
 
 ## 2. CQRS
 Read Model CRUD 상세설계
-
+![image](https://user-images.githubusercontent.com/43160394/205777738-f7c7d056-6576-4d4b-adf2-e86301b47e8e.png)
 실행 결과
 
 
@@ -58,8 +58,11 @@ Read Model CRUD 상세설계
 
 ## 4. Request/Response
 
+동기 호출
+![image](https://user-images.githubusercontent.com/43160394/205778619-6c9458d0-c548-4797-a596-595e6e3b247e.png)
 
-실행 결과
+비동기 호출
+![image](https://user-images.githubusercontent.com/43160394/205778719-f0a94ad1-fbd1-429e-b51f-e8846b266d38.png)
 
 
 ## 5. Circuit Breaker
@@ -71,15 +74,11 @@ Read Model CRUD 상세설계
 front 서비스의 application.yaml 파일의 다음 설정을 true 로 하고, 임계치를 610ms으로 변경
 ![image](https://user-images.githubusercontent.com/43160394/205564504-8c817d83-b177-4595-aac2-0762dc4f7f77.png)
 
-
 실행 결과
 
 
 ## 6. Gateway/Ingress
-
-
-실행 결과
-
-
+![image](https://user-images.githubusercontent.com/43160394/205779174-46d4987d-d2f6-4d74-8a70-ee396f7a66d1.png)
+![image](https://user-images.githubusercontent.com/43160394/205778999-1744858b-dbe3-4039-939f-8adee9efde21.png)
 
 
