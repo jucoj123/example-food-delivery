@@ -37,7 +37,6 @@
 * MSAEz 로 모델링한 이벤트스토밍 결과
 ![image](https://user-images.githubusercontent.com/43160394/205647003-d44c64e5-879d-489e-ab91-223197b25468.png)
 
-* Github link : 
 ## 1. Saga (Pub/Sub)
 
 
